@@ -48,3 +48,26 @@ length(data) #The data points is 12
 doubled_data <- data * 2 #This line of code is 7
 doubled_data #The data is being doubled/Each variable is added to itself
 
+seq(1,100) #This line of code is 8.1 
+seq(20,60) #This line of code is 8.2
+mean(seq(20,60))#This line of code is 8.3
+sum(seq(51,91))#This line of code is 8.4
+seq(1,1000)#This line of code is 8.5
+#a. There are four data points 
+#b. 
+seq(1,1000)[seq(10)]    #This line of code is 8.c
+Filter(function(i) all(i %% c(3, 5, 7) != 0), 
+       seq(100)) #This line of code is 9
+seq(100,1) #This line of code is 10
+seq(100,1)  #This line of code is 10
+multiples <- seq(1,25)[seq(1,25)%%3==0|seq(1,25)%%5==0] #This line of code is 11
+sum(multiples)  
+#There are nine data points from 10 to 11
+score <-c(72, 86, 92, 63, 88, 89, 91, 92, 75, 75, 77)   #This line of code is 13
+score[2]
+score[3]
+a <- c(1,2,NA,6,7)  #This line of code is 14 
+print(a, na.print ="-999") #The NA is change to -999 in the output
+name = readline (prompt= "Input your name: ") 
+age = readline (prompt="Input your age: ")
+print ("My name is" name, "and I am",age "years old.") print (R.version.string)
